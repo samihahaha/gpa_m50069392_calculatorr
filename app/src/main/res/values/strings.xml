@@ -1,0 +1,13 @@
+<resources>
+    <string name="course_1_label">Course 1</string>
+    <string name="course_2_label">Course 2</string>
+    <string name="course_3_label">Course 3</string>
+    <string name="course_4_label">Course 4</string>
+    <string name="course_5_label">Course 5</string>
+    <!-- Existing strings -->
+    <string name="enter_grade">Enter Grade</string>
+    <string name="calculate">Calculate</string>
+    <string name="result">Result</string>
+    <string name="clear_page">Clear Page</string>
+    <string name="app_name">My Application</string>
+</resources>

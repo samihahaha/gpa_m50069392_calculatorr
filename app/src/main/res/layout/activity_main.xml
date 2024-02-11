@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Course 1 Input, Button, and Output -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course_1_label"/>
+
+    <EditText
+        android:id="@+id/course1Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_grade"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/course1Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"/>
+
+    <TextView
+        android:id="@+id/course1Output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result"/>
+
+    <!-- Course 2 Input, Button, and Output -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course_2_label"/>
+
+    <EditText
+        android:id="@+id/course2Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_grade"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/course2Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"/>
+
+    <TextView
+        android:id="@+id/course2Output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result"/>
+
+    <!-- Course 3 Input, Button, and Output -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course_3_label"/>
+
+    <EditText
+        android:id="@+id/course3Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_grade"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/course3Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"/>
+
+    <TextView
+        android:id="@+id/course3Output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result"/>
+
+    <!-- Course 4 Input, Button, and Output -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course_4_label"/>
+
+    <EditText
+        android:id="@+id/course4Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_grade"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/course4Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"/>
+
+    <TextView
+        android:id="@+id/course4Output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result"/>
+
+    <!-- Course 5 Input, Button, and Output -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course_5_label"/>
+
+    <EditText
+        android:id="@+id/course5Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_grade"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/course5Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"/>
+
+    <TextView
+        android:id="@+id/course5Output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result"/>
+
+    <!-- Clear Page Button -->
+    <Button
+        android:id="@+id/clearPageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear_page"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
